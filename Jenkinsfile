@@ -35,9 +35,7 @@ pipeline {
         
         stage('Deploy') {
             steps {
-                steps {
-                    echo 'Deployment Successful'
-                }
+                echo 'Deployment Successful'
             }
             post {
                 always {
